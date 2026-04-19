@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX - Fortuna Roubada</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icone.PNG">
+    <script src="https://kit.fontawesome.com/382a5585e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="container">
+                <div class="flex">
+                    <div class="flex-col1">
+                        <a href="index.html" title="Home" class="header-logo">
+                            <img src="imagens/Logo do jogo.png" alt="Fortuna Roubada" class="img1">
+                        </a>
+                    </div>
+                    <div class="flex-col2">
+                    <a href="javascript:mostrarmenu()" class="header-menu">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                            <li><a href="ux.html" title="UX">UX</a></li>
+                            <li><a href="galeria.html" title="Galeria de Fotos">Galeria</a></li>
+                            <li><a href="contato.html" title="Contato">Contato</a></li>
+                            <li><a href="jogar.html" title="Jogar" class="header-btn">Jogar</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sobre">
+            <div class="container">
+                <h1><span class="faixa"><i class="fas fa-users"></i> UX do Projeto</span></h1>
+                <h2>Persona</h2>
+                <p>
+                    O público-alvo do jogo é formado por jovens e adultos que gostam de jogos de plataforma simples,
+                    com comandos e visuais simples.
+                </p>
+                <h2>Problema que o site resolve</h2>
+                <p>
+                    O site apresenta o projeto Fortuna Roubada, explica sua proposta, mostra imagens do jogo,
+                    permite contato com o desenvolvedor e oferece uma área para jogar diretamente no navegador.
+                </p>
+                <h2>Decisões visuais</h2>
+                <p>
+                    Foi utilizada uma identidade visual com cores fortes, como preto, vermelho, amarelo e branco,
+                    para combinar com a proposta de ação do jogo. Os botões foram destacados para facilitar a navegação.
+                </p>
+                <h2>Usabilidade</h2>
+                <p>
+                    O menu principal está presente em todas as páginas, os botões têm nomes claros e o site foi
+                    adaptado para funcionar também em telas menores, deixando o conteúdo organizado no celular.
+                </p>
+                <h2>Acessibilidade</h2>
+                <p>
+                    As imagens possuem texto alternativo, os botões possuem contraste visível e o conteúdo foi
+                    organizado com títulos e parágrafos para facilitar a leitura.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container center">
+            <p>
+                <img src="imagens/Logo do jogo.png" alt="Fortuna roubada" class="img3">
+            </p>
+            <p class="redes">
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </p>
+            <p>Desenvolvido por Claudio Cezar Coelho Junior</p>
+        </div>
+    </footer>
+    <script>
+        function mostrarmenu() {
+            document.querySelector(".header-nav").classList.toggle("mostrar");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icone.PNG">
+    <script src="https://kit.fontawesome.com/382a5585e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="container">
+                <div class="flex">
+                    <div class="flex-col1">
+                        <a href="index.html" title="Home" class="header-logo">
+                            <img src="imagens/Logo do jogo.png" alt="Fortuna Roubada" class="img1">
+                        </a>
+                    </div>
+                    <div class="flex-col2">
+                    <a href="javascript:mostrarmenu()" class="header-menu">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                            <li><a href="ux.html" title="UX">UX</a></li>
+                            <li><a href="galeria.html" title="Galeria de Fotos">Galeria</a></li>
+                            <li><a href="contato.html" title="Contato">Contato</a></li>
+                            <li><a href="jogar.html" title="Jogar" class="header-btn">Jogar</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>   
+    <main>
+        <section class="sobre">
+            <div class="container">
+                <h1>
+                    <span class="faixa"><i class="fas fa-search"></i> Sobre o Game</span>
+                </h1>
+                <p>Fortuna Roubada é um jogo de plataforma 2D com foco em ação e progressão por fases. O jogador controla Billy, personagem principal da aventura, em uma missão para recuperar seu bilhete premiado roubado por uma gangue.</p>
+                <p>O projeto foi desenvolvido como um jogo autoral em fase inicial, com visual simples, comandos simples e ambientação inspirada em jogos clássicos de plataforma. O objetivo é oferecer uma experiência divertida, clara e funcional para o jogador</p>
+                <p class="center">
+                    <a href="jogar.html" class="btn" title="Jogar">Jogar</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container center">
+            <p>
+                <img src="imagens/Logo do jogo.png" alt="Fortuna roubada" class="img3">
+            </p>
+            <p class="redes">
+                <a href="#" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </p>
+            <p>Desenvolvido por Claudio Cezar Coelho Junior </p>
+        </div>
+    </footer>
+    <script>
+        function mostrarmenu(){
+            document.querySelector("header nav").classList.toggle("mostrar");                
+        }
+    </script>
+</body>
+</html>
